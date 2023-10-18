@@ -1,0 +1,59 @@
+<!---A webform, web form or html form on a web page allows a user to enter data that is sent to a server for processing. Forms can resemble paper or database forms because web users fills out the forms using checkboxes, radio buttons, or text fields.--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Portal</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            color: brown;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form method="post" novalidate autocomplete="off">              
+        <label for="n">Full Name</label>
+        <input type="text" name="n"><br>
+        Enter a Number<input type="number" name="nu"><br>
+        Date<input type="date" name="d"><br>
+        Time<input type="time" name="t"><br>
+        Date & Time<input type="datetime-local" name="dt"><br>
+        Week<input type="week" name="w"><br>
+        Email<input type="email" name="em"><br>
+        Website<input type="url" name="u"><br>
+       Upload File<input type="file" name="f"><br>
+        Image<input type="image" name="fi"><br>
+        Range<input type="range" value="10" name=""><br>
+        Password<input type="password" type="password"><br>
+        <br><br>
+        <input type="radio" name="gen" value="male">Male
+        <input type="radio" name="gen" value="female">Female
+        <br>
+        <input type="checkbox" value="true">I agree
+        <br>
+        <select name="q" >
+            <option value="" selected disabled>-----nil-----</option>
+            <option value="sslc">SSLC</option>
+            <option value="plus two">Plus Two</option>
+            <option value="diploma">Diploma</option>
+            <option value="degree">Bsc</option>
+            <option value="master">Msc</option>
+            <option value="doctorate">Doctorate</option>
+        </select>
+<br>
+        <input type="button" value="continue"><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+        <br>
+    </form>
+</body>
+</html>
+
+<!-- <input type="reset" value="reset"> --> Ctrl+K+C

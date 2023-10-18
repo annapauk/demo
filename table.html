@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        h1{
+            background-color: brown !important;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .he{
+            background-color: bisque;
+        }
+        #hm{
+            background-color: rebeccapurple;
+        }
+        table{
+            border: 1px solid;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td{
+                border:1px dotted;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+            color: white;
+            height: 30%;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="he" id="hm">TABLES</h1>
+    <table>
+        <tr>
+            <th>Jr No</th>
+            <th colspan="2">Name</th>
+            <th>Position</th>
+            <th>Team</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Iker</td>
+            <td>Casillas</td>
+            <td>Goal Keeper</td>
+            <td rowspan="4">Real Madrid</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sergio</td>
+            <td>Ramos</td>
+            <td>Defender</td>
+            <!--<td>Real Madrid</td>-->
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Luka</td>
+            <td>Modric</td>
+            <td>Mid Fielder</td>
+            <!--<td>Real Madrid</td>-->
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Cristiano</td>
+            <td>Ronaldo</td>
+            <td>Center Forward</td>
+           <!-- <td>Real Madrid</td>-->
+        </tr>
+    </table><br><br>
+    <h2 id="rrr"></h2>
+    <script>
+            document.getElementById("rrr").innerHTML="I'm BATMAN"
+    </script>
+</body>
+</html>

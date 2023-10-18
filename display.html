@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dis.css">
+    <title>Display's Property</title>
+    <!-- <style>
+        h1{
+            background-color: azure;
+            display: inline;
+        }
+        a{
+            display: block;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="content" id="content"></div>
+    <div class="content1" id="content1"></div>
+    <div class="content2" id="content2"></div>
+
+    <button onclick="myFun()">Visibility</button>
+    <button onclick="myFun1()">Display</button>
+
+    <script>
+        function myFun(){
+            document.getElementById("content1").style.visibility = "hidden"
+        }
+        function myFun1(){
+            document.getElementById("content1").style.display = "none"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form New</title>
+</head>
+<body>
+    <form method="get" autocomplete="off">
+        <input type="text" value="I am" name="nm" size="3" disabled>
+        <input type="text" name="n" placeholder="enter name" minlength="5" maxlength="10" required><br>
+        <input type="tel" placeholder="91-9999999999" name="t" pattern="[0-9]{2}-[0-9]{10}"><br>
+        <br>
+        <br>
+                        <!--------------------------------datalist-------------------------------->
+        <input type="text" placeholder="search" list="brands" style="padding: 6px;margin-left: 40%;">   
+        <datalist id="brands">
+            <option value="Apple Inc">
+                <option value="Microsoft">
+                    <option value="Samsung Co.">
+                        <option value="Oneplus Inc">
+                            <option value="Asus Co.">
+        </datalist> 
+        <br>
+                    <fieldset>          <!--------------------fieldset----------------------->
+                        <legend>Buy Now</legend>
+                            <input type="text" placeholder="product name"><br>
+                            <input type="text" placeholder="quantity"><br>
+                            <input type="text" placeholder="rate"><br>
+                    </fieldset>
+        <br>
+
+        <!--video input-->
+                                    <video  controls autoplay width="auto" height="auto">
+                                        <source src="videoplayback.mp4">Iniesta Goal
+                                    </video>
+       <br>
+                                                        <!-------------------audio input----------------------->
+    <audio controls>
+        <source src="cardinal-37075.mp3">bird chirping
+    </audio><br>
+                                                    <!---------------------date--------------------------->
+        <input type="date" max="2023-09-14"><br>
+        <input type="date" min="2023-08-15">
+        <button value="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.parent{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    justify-content:flex-start;
+justify-content:flex-end ;
+/* justify-content: space-around; */
+justify-content: space-between;
+align-items: baseline;
+height: 400px;
+align-items: stretch;
+
+}
+.child{
+    padding:30px;
+    background-color:red;
+    margin: 10px;
+}

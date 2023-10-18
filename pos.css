@@ -1,0 +1,77 @@
+/* position */
+
+.test{
+    height: 300px;
+    width: 250px;
+    background-color: lightseagreen;
+    position: static;
+    /* left: 200px; */
+    /* top: 500px; */
+}
+.con{
+    width: 500px;
+    height: 250px;
+    background-color: magenta;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.stk{
+    width: 300px;
+    height: 300px;
+    background-color: gainsboro;
+    position: sticky;
+    top: 20px;
+}
+.fi{
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    background-color: cadetblue;
+    right:0;
+    top: 0;
+}
+
+/* absolute positioning */
+
+.index{
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    position: relative;
+}
+.i1{
+    width: 200px;
+    height:300px;
+    background-color: rgba(0, 0, 128,.5);
+    position:absolute;
+    left: 40px;
+    top: 25px;
+    z-index: 3;
+}
+.i2{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+}
+.i3{
+    width: 200px;
+    height:400px;
+    background-color: green;
+    position:absolute;
+    /* left: 70px;
+    top: 25px; */
+    z-index: 1;
+}
+.i4{
+    width: 500px;
+    height:200px;
+    background-color: yellow;
+    position:absolute;
+    /* left: 70px;
+    top: 30%; */
+    z-index: 0;
+}

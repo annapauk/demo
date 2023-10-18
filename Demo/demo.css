@@ -1,0 +1,38 @@
+.page-body{
+    width: 800px;
+    height: 500px;
+    /* border: 1px solid; */
+    margin:auto;
+    position: relative;
+}
+.nav{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    margin-left: 30px;
+    z-index: 3;
+}
+.back-image{
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+.back-image img{
+    width: 100%;
+    height: 100%;
+}
+.page-body .content-text{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.content-text a{
+    text-decoration: none;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left bottom;
+    margin-top: 440px;
+    margin-left: 50%;
+    position: absolute;
+    z-index: 4;
+}

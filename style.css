@@ -1,0 +1,14 @@
+body{
+    /* background-color:#8B0000;
+    background-image: url(https://images.hdqwalls.com/wallpapers/dark-batman-4k-31.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: right bottom; */
+    background: rebeccapurple fixed url(https://lafrikileria.com/blog/wp-content/uploads/2022/02/estreno-the-batman-640x347.jpg);
+}
+
+h1{
+    color:hsl(0, 70%, 49%);
+    background-color: black;
+}

@@ -1,0 +1,39 @@
+/* outline.html */
+
+.contain1{
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    /* padding: 30px; */
+    margin: auto;
+    margin-top: 30px;
+    /* outline: 10px dashed darkgoldenrod; */
+}
+.contain2{
+    width: 900px;
+    /* height: 250px; */
+    border: 2px solid grey;
+    padding: 50px;
+    margin: auto;
+    margin-top: 30px;
+    /* outline: 10px dashed darkgoldenrod; */
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    text-decoration: solid underline blue;
+}
+p{
+    text-align: justify;
+    color: brown;
+}
+h3{
+    direction: rtl;
+    /* text-decoration: line-through overline underline; */
+    color: violet;
+    text-decoration: 3px overline dashed red;
+    unicode-bidi: bidi-override ;
+}
+a{
+    text-decoration: none;
+}

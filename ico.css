@@ -1,0 +1,50 @@
+/* icon set */
+.icon-m{
+    color: green;
+    font-size: 56px !important;
+}
+.boom{
+    color: greenyellow;
+}
+/* table design */
+table{
+    width: 700px;
+    text-align: center;
+    border: 1px dashed;
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    padding: 10px;
+    border-bottom: .5px solid;
+}
+td:nth-child(even){
+    background-color: burlywood;
+}
+th{
+    background-color: rgb(255,180,180);
+}
+
+/* navigation bar */
+
+.navbar ul{
+    list-style: none;
+    background-color: goldenrod;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.navbar li:hover{
+    background-color: black;
+}
+.navbar li:hover a{
+    color: goldenrod;
+}

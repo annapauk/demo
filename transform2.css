@@ -1,0 +1,32 @@
+.content{
+    padding: 20px;
+    background-color: rgb(188, 20, 194);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    /* transition-timing-function: ease; */
+    width: 200px;
+    height: 100px;
+}
+.content:hover{
+    transform: translate(100px,100px);
+    transform: rotate(90deg);
+    width: 500px;
+}
+a{
+    font-size: 50px;
+
+
+}
+a:hover{
+    color: cadetblue;
+}
+a:link{
+    color: coral;
+}
+a:active{
+    color:red;
+
+}
+
+
